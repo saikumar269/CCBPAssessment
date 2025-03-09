@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#timer-display {
+    font-size: 48px;
+    margin: 20px 0;
+}
+button {
+    margin:5px;
+}
+.bg-start {
+    background-color: green;
+    color:white;
+    border:0px;
+    padding:7px;
+}
+.bg-reset {
+    background-color: grey;
+    color:white;
+    border:0px;
+    padding:7px;
+}
+.bg-stop {
+    background-color: red;
+    color:white;
+    border:0px;
+    padding:7px;
+}
+.bg-shortbreak {
+    background-color: blue;
+    color:white;
+    border:0px;
+    padding:7px;
+}
+.bg-longbreak {
+    background-color: purple;
+    color:white;
+    border:0px;
+    padding:7px;
+}
+
+
+
+
